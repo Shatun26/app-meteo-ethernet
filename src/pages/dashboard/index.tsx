@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
-import 'react-loading-skeleton/dist/skeleton.css'
+import 'react-loading-skeleton/dist/skeleton.css';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import { toggleTheme } from '../../redux/theme';
