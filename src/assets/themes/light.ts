@@ -6,7 +6,7 @@ export const lightTheme = {
   homePage: {
     bcg: colors.lightBlue
   },
-  common:{},
+  common: {},
   sceletonLoading: {
     bar: {
       base: colors.darkPink

@@ -1,10 +1,10 @@
 import { themes } from 'constants/theme';
-import { FC, useEffect } from 'react';
+import React, { FC, useEffect } from 'react';
+import { SkeletonTheme } from 'react-loading-skeleton';
 import { useDispatch, useSelector } from 'react-redux';
 import { getInitialTheme } from 'redux/theme';
 import { getTheme } from 'redux/theme/selectors';
 import { ThemeProvider } from 'styled-components';
-import { SkeletonTheme } from 'react-loading-skeleton';
 
 interface ThemeLayoutProps {
   children: React.ReactNode;
@@ -15,7 +15,7 @@ export const ThemeLayout: FC<ThemeLayoutProps> = ({ children }) => {
 
   useEffect(() => {
     dispatch(getInitialTheme());
-  }, []);
+  }, [dispatch]);
   return (
     <ThemeProvider theme={theme}>
       <SkeletonTheme
