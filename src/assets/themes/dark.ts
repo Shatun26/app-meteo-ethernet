@@ -5,7 +5,7 @@ export const darkTheme = {
   homePage: {
     bcg: colors.darkBlue
   },
-  common: {},
+  common:{},
   sceletonLoading: {
     bar: {
       base: colors.whiteBlue

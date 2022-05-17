@@ -11,14 +11,14 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <Provider store={store}>
       <ThemeLayout>
-        <Head>
-          <title>Meteo Ethernet</title>
-        </Head>
+      <Head>
+        <title>Meteo Ethernet</title>
+      </Head>
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeLayout>
     </Provider>
   );
-};
+}
 
 export default App;
