@@ -6,11 +6,7 @@ export const lightTheme = {
   homePage: {
     bcg: colors.lightBlue
   },
-<<<<<<< Updated upstream
   common: {},
-=======
-  common:{},
->>>>>>> Stashed changes
   sceletonLoading: {
     bar: {
       base: colors.darkPink

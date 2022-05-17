@@ -1,10 +1,5 @@
-import { FC, useState } from 'react';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
-<<<<<<< Updated upstream
+import { FC } from 'react';
 import 'react-loading-skeleton/dist/skeleton.css';
-=======
-import 'react-loading-skeleton/dist/skeleton.css'
->>>>>>> Stashed changes
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import { toggleTheme } from '../../redux/theme';
